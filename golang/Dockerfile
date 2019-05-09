@@ -1,3 +1,5 @@
 FROM golang:alpine
 
-RUN apk add make
+RUN apk add git \
+		openssh \
+		make
